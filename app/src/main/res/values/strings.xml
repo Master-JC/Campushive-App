@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cielo Hotel</string>
+    <string name="BASE_URL">http://192.168.0.0/</string>
+
+</resources>

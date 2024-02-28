@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thirdchoice"
+    tools:context=".SignInandSignUp.SignInActivity">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_gravity="center"
+        android:background="@drawable/signinandupborder"
+        android:layout_marginTop="60dp"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/signinandupborder"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Signup"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/loginandsignupbackgroud"
+        />
+
+</FrameLayout>
